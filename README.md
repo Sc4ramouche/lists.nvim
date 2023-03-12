@@ -31,8 +31,3 @@ end)
 
 - [Writing Neovim Plugins – A Beginner Guide](https://alpha2phi.medium.com/writing-neovim-plugins-a-beginner-guide-part-i-e169d5fd1a58), learned a great trick on how to setup and reload a plugin without quitting vim.
 - The UI is inspired by [Harpoon](https://github.com/ThePrimeagen/harpoon), relying on `popup` provided by [plenary](https://github.com/nvim-lua/plenary.nvim).
-
-### TODOs
-
-- [ ] Add lists dynamically.
-- [ ] Watch [TJ's plugin tutorial](https://www.youtube.com/watch?v=n4Lp4cV8YR0) and see what I can improve.
