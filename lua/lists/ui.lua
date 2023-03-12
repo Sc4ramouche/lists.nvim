@@ -75,21 +75,4 @@ function M.toggle_menu(opts)
     )
 end
 
--- The following list is based on https://github.com/pvdlg/conventional-commit-types
-local contents = {
-    "    feat: a new feature",
-    "     fix: a bug fix",
-    "    docs: documentation only changes",
-    "   style: ui-related changes, no logic",
-    "refactor: neither a bug fix nor a feature",
-    "    perf: performance improvements",
-    "    test: adding new or fixing existing test",
-    "   build: changes that affect the build system",
-    "      ci: changes for CI configuration",
-    "   chore: other changes that don't modify src or test files",
-}
-vim.keymap.set('n', '<leader>lc', function()
-    require('lists').toggle_menu({ title = "Conventional Commits", contents = contents } )
-end)
-
 return M
