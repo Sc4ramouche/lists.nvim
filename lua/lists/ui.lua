@@ -5,16 +5,18 @@ local M = {}
 -- The following list is based on https://github.com/pvdlg/conventional-commit-types
 -- TODO: dynamically provide the strings required
 local title = "Conventional Commits"
-local contents = {}
-contents[1] = "    feat: a new feature"
-contents[2] = "     fix: a bug fix"
-contents[3] = "    docs: documentation only changes"
-contents[4] = "   style: ui-related changes, no logic"
-contents[5] = "refactor: neither a bug fix nor a feature"
-contents[6] = "    perf: performance improvements"
-contents[7] = "    test: adding new or fixing existing test"
-contents[8] = "   build: changes that affect the build system"
-contents[9] = "      ci: changes for CI configuration"
+local contents = {
+    "    feat: a new feature",
+    "     fix: a bug fix",
+    "    docs: documentation only changes",
+    "   style: ui-related changes, no logic",
+    "refactor: neither a bug fix nor a feature",
+    "    perf: performance improvements",
+    "    test: adding new or fixing existing test",
+    "   build: changes that affect the build system",
+    "      ci: changes for CI configuration",
+    "   chore: other changes that don't modify src or test files",
+}
 
 Lists_win_id = nil
 Lists_bufh = nil

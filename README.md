@@ -6,7 +6,7 @@ Originally I explored an easier way to display those lists with [built-in messag
 
 ### Acknowledgements
 
-- [Writing Neovim Plugins – A Beginner Guide](https://alpha2phi.medium.com/writing-neovim-plugins-a-beginner-guide-part-i-e169d5fd1a58), learned a great trick on how to setup and reload a plugin without quitting vim
+- [Writing Neovim Plugins – A Beginner Guide](https://alpha2phi.medium.com/writing-neovim-plugins-a-beginner-guide-part-i-e169d5fd1a58), learned a great trick on how to setup and reload a plugin without quitting vim.
 - The UI is inspired by [Harpoon](https://github.com/ThePrimeagen/harpoon), relying on `popup` provided by [plenary](https://github.com/nvim-lua/plenary.nvim).
 
 ### TODOs
